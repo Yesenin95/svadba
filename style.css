@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Caveat", cursive;
+   font-weight: 400;
+   background-color: #eed4d952;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+}
+
+.time-title {
+   z-index: 1;
+   color: wheat;
+}
+
+.time-date {
+   display: flex;
+   font-size: 50px;
+   width: 500px;
+   z-index: 1;
+   color: wheat;
+}
+
+.time-date-days,
+.time-date-hours,
+.time-date-minutes,
+.time-date-seconds {
+   width: 100%;
+   text-align: center;
+   color: #f2808c;
+   font-weight: 900;
+}
+
+.time-date-d,
+.time-date-h,
+.time-date-m,
+.time-date-s {
+   width: 100%;
+   text-align: center;
+   z-index: 1;
+   color: wheat;
+}
+
+.svadba {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: black;
+   position: relative;
+   background-color: wheat;
+   background-image: url(./img/5.jfif);
+   background-repeat: no-repeat;
+   background-size: 1280px 1370px;
+   background-position: left;
+
+}
+
+.svadba_title {
+   margin-top: 20px;
+   font-size: 40px;
+}
+
+.svadba_text {
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   font-size: 30px;
+   margin-top: 30px;
+   gap: 15px;
+}
+
+.svadba_p {
+   width: 50%;
+}
+
+.na {
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.svadba_text span {
+   font-size: 45px;
+   color: #f2808c;
+}
+
+.container {
+   display: flex;
+   font-size: 40px;
+   flex-direction: column;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   font-size: 80px;
+   background-color: wheat;
+}
+
+.fon,
+.black {
+   position: absolute;
+   z-index: 1;
+   height: 100vh;
+   width: 560px;
+}
+
+.black {
+   background-color: #000000ad;
+}
+
+.info {
+   height: 100vh;
+   background-image: url(./img/4.jfif);
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   font-size: 25px;
+}
+
+.info_text {
+   width: 30%;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
