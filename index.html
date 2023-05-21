@@ -11,14 +11,61 @@
    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300;400&family=Yeon+Sung&display=swap"
       rel="stylesheet">
    <title>Приглашение</title>
+   <style>
+      @media (max-width: 480px) and (min-width: 320px) {
 
+
+         .container {
+            width: 100%;
+         }
+
+         .fon,
+         .black {
+            width: 320px;
+            font-size: 25px;
+         }
+
+         .time-title-text {
+            font-size: 70px;
+         }
+
+         .time-date {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+         }
+
+         .svadba {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background-size: 2687px 1941px;
+         }
+
+         .info {
+            padding-top: 20px;
+            height: 100vh;
+            background-size: 572px 1860px;
+            background-position-x: center;
+         }
+
+         .info-p {
+            width: 230px;
+         }
+
+         .info_text {
+            width: 250px;
+            padding-bottom: 10px;
+         }
+      }
+   </style>
 </head>
 
 <body>
    <div class="container">
       <img class="fon" src="./img/1.JPG" alt="">
       <div class="black"></div>
-      <audio id="myAudio" src="audio/1.mp3" autoplay="autoplay" volume="100"></audio>
+      <!-- <audio id="myAudio" src="audio/1.mp3" autoplay="autoplay" volume="100"></audio> -->
       <div class="time-title">
          <p class="time-title-text"> До свадьбы </p>
       </div>
@@ -72,7 +119,7 @@
    </section>
    <section class="info">
       <h2>Информация</h2>
-      <p>Дорогие гости, пожалуйста, подтвердите звонком или смс свое пресутствие до 1 июня.</p>
+      <p class="info-p">Дорогие гости, пожалуйста, подтвердите звонком или смс свое пресутствие до 1 июня.</p>
       <p>По номеру телефона:
       <ul>
          <li><a href="tel:+79879773047">+79879773047</a> Николай</li>
@@ -83,11 +130,6 @@
       <p class="info_text">Если Вы заблудились, готовите сюрприз(вдруг) или у Вас появились какие-либо вопросы, Вам с
          радостью поможет наш
          замечательный организатор. Анастасия - <a href="tel:+79272188879">+79272188879</a></p>
-   </section>
-   <section class="opros">
-      <iframe
-         src="https://docs.google.com/forms/d/e/1FAIpQLSesbv8Zw4V3kjVeSyXiekv_pQOdxUUVyBtSLNeqxWfByvRG5g/viewform?embedded=true"
-         width="700" height="700" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
    </section>
    <script src="app.js"></script>
 </body>
